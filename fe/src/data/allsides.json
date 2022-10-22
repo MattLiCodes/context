@@ -1,0 +1,164 @@
+[
+    {
+        "id": 0,
+        "name": "CNN",
+        "bias": -2,
+        "img-url": "https://www.logodesignlove.com/wp-content/uploads/2010/06/cnn-logo-white-on-red.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Fox News",
+        "bias": 2,
+        "img-url": "https://variety.com/wp-content/uploads/2013/12/fox-news-logo.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Associated Press",
+        "bias": -1,
+        "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Associated_Press_logo_2012.svg/1200px-Associated_Press_logo_2012.svg.png"
+    },
+    {
+        "id": 3,
+        "name": "Insider",
+        "bias": -1,
+        "img-url": "http://static1.insider.com/image/5788f99912df981e2b156a72-850-300/insider-logo-111111.png"
+    },
+    {
+        "id": 4,
+        "name": "National Review",
+        "bias": 2,
+        "img-url": "https://christmedicus.org/wp-content/uploads/2020/06/CMF-Website-Featured-Image-Template.png"
+    },
+    {
+        "id": 5,
+        "name": "NBC News",
+        "bias": -1,
+        "img-url": "https://cdn.worldvectorlogo.com/logos/nbc-news.svg"
+    },
+    {
+        "id": 6,
+        "name": "New York Post",
+        "bias": 1,
+        "img-url": "https://logos-download.com/wp-content/uploads/2016/10/NYP_New_York_Post_logo_wordmark.png"
+    },
+    {
+        "id": 7,
+        "name": "New York Times",
+        "bias": -1,
+        "img-url": "https://1000logos.net/wp-content/uploads/2017/04/New-York-Times-logo.png"
+    },
+    {
+        "id": 8,
+        "name": "Newsweek",
+        "bias": 0,
+        "img-url": "https://www.destinationanalysts.com/wp-content/uploads/2019/12/newsweek-vector-logo.png"
+    },
+    {
+        "id": 9,
+        "name": "Reuters",
+        "bias": 0,
+        "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/1280px-Reuters_Logo.svg.png"
+    },
+    {
+        "id": 10,
+        "name": "The Guardian",
+        "bias": -1,
+        "img-url": "https://1000logos.net/wp-content/uploads/2021/05/The-Guardian-logo.png"
+    },
+    {
+        "id": 11,
+        "name": "The Hill",
+        "bias": 0,
+        "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/The_Hill_%282020-01-15%29.svg/938px-The_Hill_%282020-01-15%29.svg.png"
+    },
+    {
+        "id": 12,
+        "name": "Wall Street Journal",
+        "bias": 0,
+        "img-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbae-e4Vf1Sn8r9sCLZS2AVeymBLSnc_QgT-4uh4WQ&s"
+    },
+    {
+        "id": 13,
+        "name": "Washington Examiner",
+        "bias": 1,
+        "img-url": "https://americaspower.org/wp-content/uploads/2021/12/Screenshot-566.png"
+    },
+    {
+        "id": 14,
+        "name": "Washington Post",
+        "bias": -1,
+        "img-url": "https://assets.stickpng.com/images/60915acdf9f20800044365ba.png"
+    },
+    {
+        "id": 15,
+        "name": "BBC News",
+        "bias": 0,
+        "img-url": "https://sites.bu.edu/reinhartlab/files/2019/04/BBC-News-LOGO.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Forbes",
+        "bias": 0,
+        "img-url": "https://1000logos.net/wp-content/uploads/2021/05/Forbes-logo.png"
+    },
+    {
+        "id": 17,
+        "name": "CBS News",
+        "bias": -1,
+        "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/CBS_News.svg/1280px-CBS_News.svg.png"
+    },
+    {
+        "id": 18,
+        "name": "NPR",
+        "bias": -1,
+        "img-url": "https://1000logos.net/wp-content/uploads/2021/05/NPR-logo.png"
+    },
+    {
+        "id": 19,
+        "name": "Politico",
+        "bias": -1,
+        "img-url": "https://static.politico.com/99/68/8e9e943a486f943513db8e44c512/politico-logo.png"
+    },
+    {
+        "id": 20,
+        "name": "The Atlantic",
+        "bias": -2,
+        "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Atlantic_magazine_logo.svg/1200px-The_Atlantic_magazine_logo.svg.png"
+    },
+    {
+        "id": 21,
+        "name": "The Daily Wire",
+        "bias": 2,
+        "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Dailywirelogo.svg/2560px-Dailywirelogo.svg.png"
+    },
+    {
+        "id": 22,
+        "name": "The New Yorker",
+        "bias": -2,
+        "img-url": "https://logos-download.com/wp-content/uploads/2016/11/The_New_Yorker_logo.png"
+    },
+    {
+        "id": 23,
+        "name": "Time Magazine",
+        "bias": -1,
+        "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Time_Magazine_logo.svg/1200px-Time_Magazine_logo.svg.png"
+    },
+    {
+        "id": 24,
+        "name": "USA Today",
+        "bias": -1,
+        "img-url": "https://1000logos.net/wp-content/uploads/2021/05/USA-Today-logo.png"
+    },
+    {
+        "id": 25,
+        "name": "Washington Times",
+        "bias": 1,
+        "img-url": "https://www.ramusa.org/wp-content/uploads/Washington-Times-Logo-02-1024x522.png"
+    },
+    {
+        "id": 26,
+        "name": "The American Spectator",
+        "bias": 2,
+        "img-url": "https://landmarklegal.org/wp-content/uploads/2021/06/News-_0000s_0002_American-Spectator.jpg"
+    }
+]
