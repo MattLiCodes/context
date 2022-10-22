@@ -4,7 +4,7 @@
     "description": "This is a Extension for Context. Yippeee!",
     "version": "0.0",
     "action": {
-      "default_popup": "index.html",
+      "default_popup": "fe/build/index.html",
       "default_icon": "smileyface.png"
     }
-  }
+}
