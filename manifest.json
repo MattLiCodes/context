@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Context Extension",
+    "description": "This is a Extension for Context. Yippeee!",
+    "version": "0.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "smileyface.png"
+    }
+  }
