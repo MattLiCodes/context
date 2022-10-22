@@ -1,5 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import {runBert} from './index.js';
+
+const exampleTexts = [
+  "Foxes playing a pond.",
+  'Hello.',
+  'How are you?',
+  "What's up?",
+  "Two plus Two Equals Four.",
+  "Five plus Two is One.",
+]
 
 function App() {
   return (
