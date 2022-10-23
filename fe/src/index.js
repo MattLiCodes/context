@@ -7,21 +7,20 @@ import reportWebVitals from './reportWebVitals';
 import * as tf from '@tensorflow/tfjs';
 import * as use from '@tensorflow-models/universal-sentence-encoder';
 
-export const runBert = (texts) => {
-  // Load the model.
-  use.load().then(model => {
-      var scores = []
+export const runBert = async (texts) => {
+  var scores = [];
+  const model = await use.load();
+  const highScore = await model.embed(texts).then(embeddings => {
+    var data = embeddings.arraySync();
+    for (let i = 1; i < data.length; i++) {
+      scores.push(tf.dot(data[0], data[i]).dataSync());
+    }
+    scores =  scores.map(a => [...a]).flat();
+    return scores.indexOf(Math.max(...scores))
+  })
 
-      model.embed(texts).then(embeddings => {
-        // `embeddings` is a 2D tensor consisting of the 512-dimensional embeddings for each sentence.
-        // So in this example `embeddings` has the shape [2, 512].
-        var data = embeddings.arraySync();
-        for (let i = 1; i < data.length; i++) {
-          scores.push(tf.dot(data[0], data[i]).dataSync());
-        }
-        console.log(scores)
-      });
-    });
+  console.log(highScore);
+  return highScore;
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,8 +29,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
