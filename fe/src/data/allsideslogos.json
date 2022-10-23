@@ -1,22 +1,22 @@
 [
     {
         "num-rating": -2,
-        "img-url": "./images/-2.jpg"
+        "imgUrl": "./images/-2.jpg"
     },
     {
         "num-rating": -1,
-        "img-url": "./images/-1.jpg"
+        "imgUrl": "./images/-1.jpg"
     },
     {
         "num-rating": 0,
-        "img-url": "./images/0.jpg"
+        "imgUrl": "./images/0.jpg"
     },
     {
         "num-rating": 1,
-        "img-url": "./images/1.jpg"
+        "imgUrl": "./images/1.jpg"
     },
     {
         "num-rating": 2,
-        "img-url": "./images/2.jpg"
+        "imgUrl": "./images/2.jpg"
     }
 ]
