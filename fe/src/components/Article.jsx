@@ -19,7 +19,7 @@ export const Article = (props) => {
 
     useEffect(() => {
         const getData = async () => {
-            const article = await getArticleFromSource(source, "Stacey Abrams")
+            const article = await getArticleFromSource(source, window.getSelection().toString());
             console.log(article)
             setTitle(article.title)
             setDescription(article.description)

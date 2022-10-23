@@ -82,7 +82,7 @@ export const allSides = [{
         "name": "The Hill",
         "bias": 0,
         "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/The_Hill_logo.jpeg?20150418210327",
-        "url": "https://thehill.com/"
+        "url": "thehill.com"
     },
     {
         "id": 12,
@@ -139,14 +139,14 @@ export const allSides = [{
         "name": "Politico",
         "bias": -1,
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIOSZg6xGgpQt6uDHuak67gIJMj2Au4Wib0v7daUP2Q&s",
-        "url": "https://www.politico.com/"
+        "url": "politico.com"
     },
     {
         "id": 20,
         "name": "The Atlantic",
         "bias": -2,
         "imgUrl": "https://cdn.theatlantic.com/assets/media/files/atlantic-logo--224x224.png",
-        "url": "https://www.theatlantic.com/"
+        "url": "theatlantic.com"
     },
     {
         "id": 21,
