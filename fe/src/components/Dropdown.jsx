@@ -1,10 +1,20 @@
 import Header from "./Header"
 import Article from "./Article"
+import MinimizedDropdown from "./MinimizedDropdown"
 import data from "../data/data.json"
+import { useState } from "react"
 
 const Dropdown = () => {
-    return (
-        <div id="dropdown">
+
+    const [isMinimized, setIsMinimized] = useState(false)
+
+    const handleClick = () => {
+        setIsMinimized(prevIsMinimized => !prevIsMinimized)
+    }
+
+    return isMinimized ? (<div id="minimizedDropdown" onClick={handleClick}><MinimizedDropdown /></div>) 
+    : (
+        <div id="dropdown" onClick={handleClick}>
             <Header />
             {
                 data.map((element) => {
