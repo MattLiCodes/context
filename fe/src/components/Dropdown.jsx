@@ -29,7 +29,6 @@ const Dropdown = () => {
                     )
                 })
             }
-            <p>Stacey Abrams</p>
         </div>
     )
 }

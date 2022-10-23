@@ -19,15 +19,15 @@ export const Article = (props) => {
 
     useEffect(() => {
         const getData = async () => {
-            const article = await getArticleFromSource(source, window.getSelection().toString());
-            console.log(article)
-            setTitle(article.title)
-            setDescription(article.description)
-            setUrl(article.url)
+            // const article = await getArticleFromSource(source, "Herschel Walker");
+            // console.log(article)
+            setTitle(s.title)
+            setDescription(s.description)
+            setUrl(s.url)
             setReady(true)
         }
         getData()
-    }, [source])
+    }, [])
 
     return ready ? (
         <div id="article">
@@ -39,7 +39,7 @@ export const Article = (props) => {
                 height={30}
             />
             <div id="article-infoContainer">
-                <a id="title" href={ url }>{ title }</a>
+                <a id="title" href={ url } target={"_blank"}>{ title }</a>
                 <p id="description">{ description }</p>
                 <img id="allsides" src={inddict[s.bias + 2]} width={30} height={30} alt="AllSides ranking" />
             </div>
