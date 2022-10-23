@@ -5,6 +5,6 @@
     "version": "0.0",
     "action": {
       "default_popup": "fe/build/index.html",
-      "default_icon": "smileyface.png"
+      "default_icon": "logo2.PNG"
     }
 }
