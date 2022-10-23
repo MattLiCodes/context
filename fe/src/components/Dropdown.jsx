@@ -10,6 +10,7 @@ const Dropdown = () => {
     
     const handleClick = () => {
         setIsMinimized(prevIsMinimized => !prevIsMinimized)
+        
     }
 
     const selectedSources = ["CNN", "Fox News", "NPR", "Time Magazine", "The Daily Wire"];
@@ -17,8 +18,8 @@ const Dropdown = () => {
 
     return isMinimized ? (<div id="minimizedDropdown" onClick={handleClick}><MinimizedDropdown /></div>) 
     : (
-        <div id="dropdown" onClick={handleClick}>
-            <Header />
+        <div id="dropdown">
+            <div onClick={handleClick}><Header /></div>
             {
                 selectedSources.map((element) => {
                     return (
