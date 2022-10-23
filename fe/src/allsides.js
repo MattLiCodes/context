@@ -1,16 +1,18 @@
 export const allSides = [{
         "id": 0,
         "name": "CNN",
+        "nickname": "cnn",
         "bias": -2,
         "imgUrl": "https://www.logodesignlove.com/wp-content/uploads/2010/06/cnn-logo-white-on-red.jpg",
-        "url": "https://www.cnn.com/"
+        "url": "cnn.com"
     },
     {
         "id": 1,
         "name": "Fox News",
+        "nickname": "fox-news",
         "bias": 2,
         "imgUrl": "https://variety.com/wp-content/uploads/2013/12/fox-news-logo.jpg",
-        "url": "https://www.foxnews.com/"
+        "url": "foxnews.com"
     },
     {
         "id": 2,
@@ -80,7 +82,7 @@ export const allSides = [{
         "name": "The Hill",
         "bias": 0,
         "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/The_Hill_%282020-01-15%29.svg/938px-The_Hill_%282020-01-15%29.svg.png",
-        "url": "https://thehill.com/"
+        "url": "thehill.com"
     },
     {
         "id": 12,
@@ -127,6 +129,7 @@ export const allSides = [{
     {
         "id": 18,
         "name": "NPR",
+        "nickname": "npr",
         "bias": -1,
         "imgUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAzFBMVEXm5+gje73WICEAAAX///8AAADVAADq6+zm6+zq6umnp6jn7/Dgq6yrwdgLdbvVAQXLHh8Acbrf4+bVCw3mkpJtbW711dXVFxjdW1xSkcf54+Pj7PU6OjtJi8QNDQ/aR0cqKiv77u6KiovJAADVEhPH2Or09PSSkpLjgIC/v8AAbLdkZGXYMjPfZWbqoKHxwsLzzM3ts7MbGxzLy8zX19h2dndmm8vV4u92pNDidXWcvNyLsdbZOzxUVFU7hcLmjIy5z+WsrKxISEmdnZ14mOLYAAADcUlEQVR4nO3b6VbaQABAYQuZWGjFpogKSgUKQQRxQatFUSnv/041mg0z2XNaknO/X5wgg9cQJptbWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+r88Z2M5AJT2fwK8ZqGZgJz154Rd1N7WfIgO11M6++xSWUvsmyqmJT6lpFFJIIYUUUkghhRRSmK/CA4P1uK6+qccrtA8ZXA9F0B8iWmGtpmnGYUTKwsmJYWI8VNXz6cV+a//y6nmi9qMXimPT9WvXeDm7uZmNqrfXAZF+hW2Tkaf9mg/u7u4GO/fSxsiF9T3F0FJL9dKV4mj9Vg9kfdJC3XxRQwxdQ1RWvo0+hWfWS5s1be4a6UGSGLdQOVRPlXWtiXw1Sgq3zZfcbn0YY+WTGFbYftLdw7QzWIfK5Z7icSJNDCj0qlxLE8MK79cGGWhZFEo9yj6osQoVpSNLDCtcJ1uFGRV2ZZNLzEJd9kGNVShdhRkVKtPd1IXKLG2hdBUmLOxOzx8fz6ddZ4lkJQYW6tXGYtEYjtxfFAvJBBqhUJ83n5oPA59VmKzwVN01Zv+6+uws8n7ZBBVW7em+4VTfJCp80Ywpoqa1m/KfTVDY6tt7Mqq98MK7EgMKe842J8TM/mW9XzbhhS9n8h9JUdh1z/Bq114ap7DhekoIe3JcxS88CgtMULjvfqo+td7Ku4casbAsFv4f09BCn49mdoUHh9ZbeafEqIVlZyV6JoywwvBVmLawVLLe6zBFYdUa5Dhu4Vx+PJFloZpFYUORLo9QeJ+TwmNrkGHcwvDNcDMKhTWI58u0IIVlu3BJIYUbWlj87VD8sQYp7HdpT5EuL1DhyBrEc3BRjEJnM9Rj73nnpNA+dzoqZqHoWEN4N8M8F1rPCWenVHa2LbeFxmmMd52lHfi68OMLclz4us0Ne8PVyH16sZLgbOImF3p5Dn+LVjhOclY/T4XSwAIVVqTXZYpTqPcSXyHNsLB/2m29WT+7rb4vbHXjzYdD5xKpPmr4X+b2KdSOTPKLMckKS33VtL7YWuq9ghg844txb7Ua9sadwHsV/K7ja6bwwH97t4l7ry3KnRj5u5/G7ywGhRRSSCGFMQqt+xJuC1v4w1QuamHEaT7PhbFRSGFQYXqb/R+Wxf8/YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAZH8BC73lvCxC494AAAAASUVORK5CYII=",
         "url": "https://www.npr.org/"
@@ -136,21 +139,22 @@ export const allSides = [{
         "name": "Politico",
         "bias": -1,
         "imgUrl": "https://static.politico.com/99/68/8e9e943a486f943513db8e44c512/politico-logo.png",
-        "url": "https://www.politico.com/"
+        "url": "politico.com"
     },
     {
         "id": 20,
         "name": "The Atlantic",
         "bias": -2,
         "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Atlantic_magazine_logo.svg/1200px-The_Atlantic_magazine_logo.svg.png",
-        "url": "https://www.theatlantic.com/"
+        "url": "theatlantic.com"
     },
     {
         "id": 21,
         "name": "The Daily Wire",
+        "nickname": "the-daily-wire",
         "bias": 2,
         "imgUrl": "https://media.glassdoor.com/sqll/4982330/the-daily-wire-squarelogo-1642662848320.png",
-        "url": "https://www.dailywire.com/"
+        "url": "dailywire.com"
     },
     {
         "id": 22,
@@ -164,7 +168,7 @@ export const allSides = [{
         "name": "Time Magazine",
         "bias": -1,
         "imgUrl": "https://api.time.com/wp-content/themes/time2014/img/time-logo-og.png",
-        "url": "https://time.com/"
+        "url": "time.com"
     },
     {
         "id": 24,
@@ -178,14 +182,14 @@ export const allSides = [{
         "name": "Washington Times",
         "bias": 1,
         "imgUrl": "https://www.ramusa.org/wp-content/uploads/Washington-Times-Logo-02-1024x522.png",
-        "url": "https://www.washingtontimes.com/"
+        "url": "washingtontimes.com"
     },
     {
         "id": 26,
         "name": "The American Spectator",
         "bias": 2,
         "imgUrl": "https://landmarklegal.org/wp-content/uploads/2021/06/News-_0000s_0002_American-Spectator.jpg",
-        "url": "https://spectator.org/"
+        "url": "spectator.org"
     }
 ]
 

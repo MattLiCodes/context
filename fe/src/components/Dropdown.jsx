@@ -13,13 +13,14 @@ const Dropdown = () => {
     }
 
     const selectedSources = ["CNN", "Fox News", "NPR", "Time Magazine", "The Daily Wire"];
+    const selectedSources2 = ["The Hill", "The Atlantic", "Politico", "Washington Times", "The American Spectator"];
 
     return isMinimized ? (<div id="minimizedDropdown" onClick={handleClick}><MinimizedDropdown /></div>) 
     : (
         <div id="dropdown" onClick={handleClick}>
             <Header />
             {
-                selectedSources.map((element) => {
+                selectedSources2.map((element) => {
                     return (
                         <Article
                             key={element}

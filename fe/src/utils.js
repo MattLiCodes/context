@@ -1,7 +1,9 @@
 import {runBert} from './index.js'
+import {allSides} from './allsides.js';
 export const getArticleFromSource = async (source, keywords) => {
-    const articles = await fetch(
-      'https://newsapi.org/v2/everything?searchIn=content&q=' + keywords + '&sources=' + source + '&apiKey=188bd8b6df2a493c928f552125a6b78b',
+  const s = allSides.find((element) => element.name === source)
+  const articles = await fetch(
+      'https://newsapi.org/v2/everything?searchIn=content&q=' + keywords + '&domains=' + s.url + '&apiKey=552e3820da4c470ea9af9c15ed96a7ff',
     ).then(async response =>
         await response.json()
     ).then(data => {

@@ -19,14 +19,15 @@ export const Article = (props) => {
 
     useEffect(() => {
         const getData = async () => {
-            const article = await getArticleFromSource(source, "Taylor Swift")
+            const article = await getArticleFromSource(source, "Stacey Abrams")
             console.log(article)
             setTitle(article.title)
             setDescription(article.description)
             setUrl(article.url)
+            setReady(true)
         }
         getData()
-    })
+    }, [source])
 
     return ready ? (
         <div id="article">
