@@ -4,7 +4,9 @@ export const allSides = [{
         "nickname": "cnn",
         "bias": -2,
         "imgUrl": "https://www.logodesignlove.com/wp-content/uploads/2010/06/cnn-logo-white-on-red.jpg",
-        "url": "cnn.com"
+        "url": "cnn.com",
+        "title": "Raphael Warnock goes there on the Herschel Walker abortion allegations.",
+        "description": "After largely avoiding the abortion controversy surrounding Republican opponent Herschel Walker, Georgia Democratic Sen. Raphael Warnock is going right at the issue in a new TV ad."
     },
     {
         "id": 1,
@@ -12,7 +14,9 @@ export const allSides = [{
         "nickname": "fox-news",
         "bias": 2,
         "imgUrl": "https://variety.com/wp-content/uploads/2013/12/fox-news-logo.jpg",
-        "url": "foxnews.com"
+        "url": "foxnews.com",
+        "title": "Herschel Walker says he is 'not deterred' after allegations he paid for girlfriend's abortion",
+        "description": "Georgia GOP Senate candidate Herschel Walker said that he's not 'backing down' after allegations that he paid for an ex-girlfriend's abortion"
     },
     {
         "id": 2,
@@ -132,7 +136,9 @@ export const allSides = [{
         "nickname": "npr",
         "bias": -1,
         "imgUrl": "https://www.niemanlab.org/images/npr-square-logo.jpg",
-        "url": "https://www.npr.org/"
+        "url": "https://www.npr.org/2022/10/04/1126692026/herschel-walker-rejects-abortion-report-georgia-republican",
+        "title": "Republican Party stands by Herschel Walker as he denies he paid for an abortion",
+        "description": "The national Republican Party apparatus is standing behind its U.S. Senate candidate in Georgia, Herschel Walker, following a report in the Daily Beast that alleges he paid for a girlfriend's abortion in 2009."
     },
     {
         "id": 19,
@@ -154,7 +160,9 @@ export const allSides = [{
         "nickname": "the-daily-wire",
         "bias": 2,
         "imgUrl": "https://media.glassdoor.com/sqll/4982330/the-daily-wire-squarelogo-1642662848320.png",
-        "url": "dailywire.com"
+        "url": "dailywire.com",
+        "title": "Herschel Walker Responds To Report He Paid For Womans Abortion: Flat-Out Lie",
+        "description": "Herschel Walker, a Republican running for a U.S. Senate seat in Georgia, slammed a report in the Left-wing Daily Beast that claimed Walker paid for a woman to have an abortion over a decade ago."
     },
     {
         "id": 22,
@@ -168,7 +176,9 @@ export const allSides = [{
         "name": "Time Magazine",
         "bias": -1,
         "imgUrl": "https://api.time.com/wp-content/themes/time2014/img/time-logo-og.png",
-        "url": "time.com"
+        "url": "time.com",
+        "title": "Report: Herschel Walker, Who Opposes Abortion Rights, Paid for Girlfriend's Abortion",
+        "description": "Herschel Walker, who has vehemently opposed abortion rights as the Republican nominee for U.S. Senate in Georgia, paid for an abortion for his girlfriend in 2009."
     },
     {
         "id": 24,
