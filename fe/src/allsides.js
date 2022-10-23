@@ -128,7 +128,7 @@ export const allSides = [{
         "id": 18,
         "name": "NPR",
         "bias": -1,
-        "imgUrl": "https://1000logos.net/wp-content/uploads/2021/05/NPR-logo.png",
+        "imgUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAzFBMVEXm5+gje73WICEAAAX///8AAADVAADq6+zm6+zq6umnp6jn7/Dgq6yrwdgLdbvVAQXLHh8Acbrf4+bVCw3mkpJtbW711dXVFxjdW1xSkcf54+Pj7PU6OjtJi8QNDQ/aR0cqKiv77u6KiovJAADVEhPH2Or09PSSkpLjgIC/v8AAbLdkZGXYMjPfZWbqoKHxwsLzzM3ts7MbGxzLy8zX19h2dndmm8vV4u92pNDidXWcvNyLsdbZOzxUVFU7hcLmjIy5z+WsrKxISEmdnZ14mOLYAAADcUlEQVR4nO3b6VbaQABAYQuZWGjFpogKSgUKQQRxQatFUSnv/041mg0z2XNaknO/X5wgg9cQJptbWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+r88Z2M5AJT2fwK8ZqGZgJz154Rd1N7WfIgO11M6++xSWUvsmyqmJT6lpFFJIIYUUUkghhRRSmK/CA4P1uK6+qccrtA8ZXA9F0B8iWmGtpmnGYUTKwsmJYWI8VNXz6cV+a//y6nmi9qMXimPT9WvXeDm7uZmNqrfXAZF+hW2Tkaf9mg/u7u4GO/fSxsiF9T3F0FJL9dKV4mj9Vg9kfdJC3XxRQwxdQ1RWvo0+hWfWS5s1be4a6UGSGLdQOVRPlXWtiXw1Sgq3zZfcbn0YY+WTGFbYftLdw7QzWIfK5Z7icSJNDCj0qlxLE8MK79cGGWhZFEo9yj6osQoVpSNLDCtcJ1uFGRV2ZZNLzEJd9kGNVShdhRkVKtPd1IXKLG2hdBUmLOxOzx8fz6ddZ4lkJQYW6tXGYtEYjtxfFAvJBBqhUJ83n5oPA59VmKzwVN01Zv+6+uws8n7ZBBVW7em+4VTfJCp80Ywpoqa1m/KfTVDY6tt7Mqq98MK7EgMKe842J8TM/mW9XzbhhS9n8h9JUdh1z/Bq114ap7DhekoIe3JcxS88CgtMULjvfqo+td7Ku4casbAsFv4f09BCn49mdoUHh9ZbeafEqIVlZyV6JoywwvBVmLawVLLe6zBFYdUa5Dhu4Vx+PJFloZpFYUORLo9QeJ+TwmNrkGHcwvDNcDMKhTWI58u0IIVlu3BJIYUbWlj87VD8sQYp7HdpT5EuL1DhyBrEc3BRjEJnM9Rj73nnpNA+dzoqZqHoWEN4N8M8F1rPCWenVHa2LbeFxmmMd52lHfi68OMLclz4us0Ne8PVyH16sZLgbOImF3p5Dn+LVjhOclY/T4XSwAIVVqTXZYpTqPcSXyHNsLB/2m29WT+7rb4vbHXjzYdD5xKpPmr4X+b2KdSOTPKLMckKS33VtL7YWuq9ghg844txb7Ua9sadwHsV/K7ja6bwwH97t4l7ry3KnRj5u5/G7ywGhRRSSCGFMQqt+xJuC1v4w1QuamHEaT7PhbFRSGFQYXqb/R+Wxf8/YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAZH8BC73lvCxC494AAAAASUVORK5CYII=",
         "url": "https://www.npr.org/"
     },
     {
@@ -149,7 +149,7 @@ export const allSides = [{
         "id": 21,
         "name": "The Daily Wire",
         "bias": 2,
-        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Dailywirelogo.svg/2560px-Dailywirelogo.svg.png",
+        "imgUrl": "https://media.glassdoor.com/sqll/4982330/the-daily-wire-squarelogo-1642662848320.png",
         "url": "https://www.dailywire.com/"
     },
     {
@@ -163,7 +163,7 @@ export const allSides = [{
         "id": 23,
         "name": "Time Magazine",
         "bias": -1,
-        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Time_Magazine_logo.svg/1200px-Time_Magazine_logo.svg.png",
+        "imgUrl": "https://api.time.com/wp-content/themes/time2014/img/time-logo-og.png",
         "url": "https://time.com/"
     },
     {
@@ -186,5 +186,28 @@ export const allSides = [{
         "bias": 2,
         "imgUrl": "https://landmarklegal.org/wp-content/uploads/2021/06/News-_0000s_0002_American-Spectator.jpg",
         "url": "https://spectator.org/"
+    }
+]
+
+export const allSidesLogos = [
+    {
+        "num-rating": -2,
+        "imgUrl": "./data/images/-2.jpg"
+    },
+    {
+        "num-rating": -1,
+        "imgUrl": "./data/images/-1.jpg"
+    },
+    {
+        "num-rating": 0,
+        "imgUrl": "./data/images/0.jpg"
+    },
+    {
+        "num-rating": 1,
+        "imgUrl": "./data/images/1.jpg"
+    },
+    {
+        "num-rating": 2,
+        "imgUrl": "./data/images/2.jpg"
     }
 ]
