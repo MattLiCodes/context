@@ -81,13 +81,8 @@ export const allSides = [{
         "id": 11,
         "name": "The Hill",
         "bias": 0,
-<<<<<<< HEAD
-        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/The_Hill_%282020-01-15%29.svg/938px-The_Hill_%282020-01-15%29.svg.png",
-        "url": "thehill.com"
-=======
         "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/The_Hill_logo.jpeg?20150418210327",
         "url": "https://thehill.com/"
->>>>>>> 359cda49d135092cdfaed1972712511ee3caab78
     },
     {
         "id": 12,
@@ -143,25 +138,15 @@ export const allSides = [{
         "id": 19,
         "name": "Politico",
         "bias": -1,
-<<<<<<< HEAD
-        "imgUrl": "https://static.politico.com/99/68/8e9e943a486f943513db8e44c512/politico-logo.png",
-        "url": "politico.com"
-=======
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIOSZg6xGgpQt6uDHuak67gIJMj2Au4Wib0v7daUP2Q&s",
         "url": "https://www.politico.com/"
->>>>>>> 359cda49d135092cdfaed1972712511ee3caab78
     },
     {
         "id": 20,
         "name": "The Atlantic",
         "bias": -2,
-<<<<<<< HEAD
-        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Atlantic_magazine_logo.svg/1200px-The_Atlantic_magazine_logo.svg.png",
-        "url": "theatlantic.com"
-=======
         "imgUrl": "https://cdn.theatlantic.com/assets/media/files/atlantic-logo--224x224.png",
         "url": "https://www.theatlantic.com/"
->>>>>>> 359cda49d135092cdfaed1972712511ee3caab78
     },
     {
         "id": 21,
@@ -196,20 +181,8 @@ export const allSides = [{
         "id": 25,
         "name": "Washington Times",
         "bias": 1,
-<<<<<<< HEAD
-        "imgUrl": "https://www.ramusa.org/wp-content/uploads/Washington-Times-Logo-02-1024x522.png",
-        "url": "washingtontimes.com"
-    },
-    {
-        "id": 26,
-        "name": "The American Spectator",
-        "bias": 2,
-        "imgUrl": "https://landmarklegal.org/wp-content/uploads/2021/06/News-_0000s_0002_American-Spectator.jpg",
-        "url": "spectator.org"
-=======
         "imgUrl": "https://media.glassdoor.com/sqll/331932/the-washington-times-squarelogo-1567102693968.png",
         "url": "https://www.washingtontimes.com/"
->>>>>>> 359cda49d135092cdfaed1972712511ee3caab78
     }
 ]
 
