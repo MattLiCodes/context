@@ -1,5 +1,23 @@
-const Article = (props) => {
-    const { title, description, url } = props
+import React, { useState, useEffect } from 'react';
+import { getArticleFromSource } from '../utils';
+
+export const Article = (props) => {
+    const { source } = props
+    const [title, setTitle] = useState("");
+    const [description, setDescription] = useState("");
+    const [url, setUrl] = useState("");
+
+    useEffect(() => {
+        const getData = async () => {
+            const article = await getArticleFromSource(source, "Taylor Swift")
+            console.log(article)
+            setTitle(article.title)
+            setDescription(article.description)
+            setUrl(article.url)
+        }
+        getData()
+    })
+
     return (
         <div id="article">
             <img 
