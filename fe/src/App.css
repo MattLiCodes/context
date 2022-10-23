@@ -104,6 +104,7 @@ html, body {
 #allsides {
   align-self: flex-end;
   border-radius: 2px;
+  object-fit: "contain";
 }
 
 @media screen and (max-width: 480px) {
