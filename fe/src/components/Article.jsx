@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { getArticleFromSource } from '../utils';
+import {allSides} from '../allsides.js';
+import * as allSidesLogos from '../data/allsideslogos.json';
 
 export const Article = (props) => {
     const { source } = props
+    const index = allSides.indexOf(source)
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
     const [url, setUrl] = useState("");
@@ -22,7 +25,7 @@ export const Article = (props) => {
         <div id="article">
             <img 
                 id="logo" 
-                src="https://www.logodesignlove.com/wp-content/uploads/2010/06/cnn-logo-white-on-red.jpg" 
+                src={allSides[1].imgUrl} 
                 alt="news icon" 
                 width={30}
                 height={30}
