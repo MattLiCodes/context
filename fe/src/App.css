@@ -103,6 +103,7 @@ html, body {
 
 #allsides {
   align-self: flex-end;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 480px) {
